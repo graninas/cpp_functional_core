@@ -1,7 +1,7 @@
 #ifndef IDENTITY_H
 #define IDENTITY_H
 
-namespace f_core
+namespace fp
 {
 
 template <typename V>
@@ -11,6 +11,6 @@ struct Identity
 
 typedef Identity<int> Id;
 
-} // namespace f_core
+} // namespace fp
 
 #endif // IDENTITY_H

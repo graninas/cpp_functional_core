@@ -15,7 +15,8 @@ QMAKE_CXXFLAGS += -std=c++11
 SOURCES +=
 
 HEADERS += \
-    identity.h
+    identity.h \
+    functor.h
 
 unix {
     target.path = /usr/lib
