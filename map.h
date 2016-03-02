@@ -1,5 +1,5 @@
-#ifndef FUNCTOR_H
-#define FUNCTOR_H
+#ifndef MAP_H
+#define MAP_H
 
 #include <functional>
 #include <algorithm>
@@ -32,4 +32,4 @@ std::vector<B> map(
 
 } // namespace fp
 
-#endif // FUNCTOR_H
+#endif // MAP_H

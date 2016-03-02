@@ -16,7 +16,8 @@ SOURCES +=
 
 HEADERS += \
     identity.h \
-    functor.h
+    map.h \
+    parallel_map.h
 
 unix {
     target.path = /usr/lib
