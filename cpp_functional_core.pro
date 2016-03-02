@@ -4,22 +4,10 @@
 #
 #-------------------------------------------------
 
-QT -= core gui
+TEMPLATE = subdirs
 
-TARGET = cpp_functional_core
-TEMPLATE = lib
-CONFIG += staticlib
+SUBDIRS += \
+    cpp_functional_core
 
-QMAKE_CXXFLAGS += -std=c++11
-
-SOURCES +=
-
-HEADERS += \
-    identity.h \
-    map.h \
-    parallel_map.h
-
-unix {
-    target.path = /usr/lib
-    INSTALLS += target
-}
+OTHER_FILES += \
+    cpp_functional_core.pri
