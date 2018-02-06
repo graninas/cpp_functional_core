@@ -10,14 +10,15 @@ TARGET = cpp_functional_core
 TEMPLATE = lib
 CONFIG += staticlib
 
-QMAKE_CXXFLAGS += -std=c++11
+CONFIG += c++14
 
 SOURCES +=
 
 HEADERS += \
     identity.h \
     parallel_map.h \
-    map.h
+    map.h \
+    unit.h
 
 unix {
     target.path = /usr/lib
